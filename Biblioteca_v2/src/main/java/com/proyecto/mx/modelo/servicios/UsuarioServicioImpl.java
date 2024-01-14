@@ -66,7 +66,7 @@ public class UsuarioServicioImpl implements UsuarioServicio{
 			PdfWriter.getInstance(documento, salida);
 			documento.open();
 			Font tipoLetra = FontFactory.getFont(FontFactory.COURIER, 14, BaseColor.BLUE);
-			Paragraph parrafo = new Paragraph("Lista de Asistentes", tipoLetra);
+			Paragraph parrafo = new Paragraph("Lista de Usuarios", tipoLetra);
 			parrafo.setAlignment(Element.ALIGN_CENTER);
 			documento.add(parrafo);
 			documento.add(Chunk.NEWLINE);
